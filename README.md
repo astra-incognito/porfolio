@@ -44,4 +44,4 @@ Feel free to connect with me:
 If you’d like to suggest improvements or fix issues, feel free to fork the repo and submit a pull request!
 
 ---
-🔹 **Prince Ori** | Software Developer | Cybersecurity Enthusiast
+🔹 **Prince Ofori** | Software Developer | Cybersecurity Enthusiast

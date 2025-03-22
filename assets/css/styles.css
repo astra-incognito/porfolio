@@ -72,7 +72,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: auto;
   height: auto;
   display: block;
 }
@@ -247,7 +247,7 @@ img {
   flex-direction: column;
   gap: 0rem;
   padding: 5rem;
-  max-height: 30rem;
+  max-height: 25rem;
   background-color: rgb(12, 14, 12);
   background-image: radial-gradient(at 88% 40%,
       rgb(16, 16, 177) 0px,
@@ -255,8 +255,8 @@ img {
     radial-gradient(at 49% 30%, rgb(17, 17, 94) 0px, transparent 85%),
     radial-gradient(at 14% 26%, rgb(21, 21, 214) 0px, transparent 85%),
     radial-gradient(at 0% 64%, hsl(278, 70%, 55%) 0px, transparent 85%),
-    radial-gradient(at 41% 94%, hsl(189, 97%, 36%) 0px, transparent 85%),
-    radial-gradient(at 100% 99%, hsl(188, 94%, 13%) 0px, transparent 85%);
+    radial-gradient(at 41% 94%, hsla(271, 90%, 60%, 0.123) 0px, transparent 85%),
+    radial-gradient(at 100% 99%, hsl(188, 37%, 37%) 0px, transparent 85%);
 
   border-radius: 1rem;
   box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
@@ -325,8 +325,9 @@ img {
 
 .card .line {
   width: auto;
-  height: auto;
-  background-color: var(--line);
+  align-items: center;
+  height: 0.2rem;
+  background-color: rgb(234, 240, 241);
 
   border: none;
 }

@@ -20,7 +20,7 @@ This portfolio is built to highlight my expertise in backend development, cybers
 If you want to contribute or run this project locally:
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/astra-incognito/portfolio.git
    ```
 2. Navigate into the project folder:
    ```sh

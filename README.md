@@ -1,4 +1,4 @@
-# 🌐 Prince Ori's Portfolio
+# 🌐 Prince Ofori's Portfolio
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences in software development, cybersecurity, and more.
 

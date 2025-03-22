@@ -222,14 +222,6 @@ img {
 .home__social-icon:hover {
   color: var(--first-color);
 }
-.home__blob {
-  fill: var(--first-color);
-}
-
-.home__blob-img {
-  width: 560px;
-}
-
 /*BUTTONS*/
 .button {
   display: inline-block;

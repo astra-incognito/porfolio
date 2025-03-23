@@ -219,7 +219,7 @@ img {
     width: 80%;
     height: calc(100vh - var(--header-height));
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: rgb(126, 49, 214);
     flex-direction: column;
     align-items: flex-start;
     transition: right 0.5s ease;

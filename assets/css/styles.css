@@ -556,19 +556,26 @@ img {
   border-radius: .5rem;
 }
 
-/* ===== SKILLS =====*/
-.skills__container {
+/* ===== SKILLS ===== */
+.skills__container.bd-grid {
   row-gap: 2rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  justify-content: center; /* Center content vertically */
 }
 
 .skills__subtitle {
   margin-bottom: var(--mb-2);
-  text-align: center;
+  text-align: center; /* Ensure subtitle is centered */
+  width: 100%; /* Ensure full width for proper centering */
 }
 
 .skills__text {
   margin-bottom: var(--mb-4);
+  text-align: center; /* Ensure text is centered */
+  width: 100%; /* Ensure full width for proper centering */
 }
 
 .skills__data {

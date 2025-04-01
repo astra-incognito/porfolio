@@ -296,16 +296,15 @@
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
-          <form action class="contact__form">
-            <input type="text" placeholder="Name"
-              class="contact__input">
-            <input type="mail" placeholder="Email"
-              class="contact__input">
-            <textarea name id cols="0" rows="10"
-              class="contact__input" placeholder="Enter your message here..."></textarea>
-            <input type="submit" value="Submit"
-              class="contact__button button">
-          </form>
+          <form action="https://formsubmit.co/princeofori1470@gmail.com" method="POST" class="contact__form">
+            <input type="text" name="name" placeholder="Name" class="contact__input" required>
+            <input type="email" name="email" placeholder="Email" class="contact__input" required>
+            <textarea name="message" cols="0" rows="10" class="contact__input" placeholder="Enter your message here..." required></textarea>
+            <input type="submit" value="Submit" class="contact__button button">
+            <input type="hidden" name="_autoresponse" value="Thank you! We received your message.">
+            <input type="hidden" name="_next" value="princeofori.info/thank-you.html">
+            <input type="hidden" name="_captcha" value="false">                
+        </form>
         </div>
       </section>
     </main>
